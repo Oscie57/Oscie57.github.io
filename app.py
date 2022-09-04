@@ -44,10 +44,16 @@ def net(site):
     return redirect(f"https://{site}.oscie.net/")
 
 
-@app.route('/')
-def root():
+@app.route('/<value>')
+def oth(value):
 
-    return render_template('./index.html', )
+    with open('./static/others.json') as othjson:
+        f = json.load(othjson)
+
+    if value in f:
+        link = f[value]
+    else:
+        return render_template('404.html'), 404
 
 
 @app.errorhandler(404)

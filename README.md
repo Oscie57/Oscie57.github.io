@@ -15,7 +15,8 @@ Make sure you have Python 3 installed with Flask as a package.
 
 | Route           | Location                      |
 | :-------------- | :---------------------------- |
-| `/git/<repo>`   | `//github.com/oscie57/<repo>` |
+| `/<value>`      | `others.json[value]`          |
 | `/soc/<social>` | `social.json[social]`         |
 | `/don/<page>`   | `donate.json[page]`           |
+| `/git/<repo>`   | `//github.com/oscie57/<repo>` |
 | `/net/<site>`   | `//<site>.oscie.net`          |
