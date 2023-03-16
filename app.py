@@ -54,6 +54,8 @@ def oth(value):
         link = f[value]
     else:
         return render_template('404.html'), 404
+    
+    return redirect(link)
 
 
 @app.errorhandler(404)
