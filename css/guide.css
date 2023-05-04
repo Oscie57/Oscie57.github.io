@@ -39,15 +39,72 @@ section {
     gap: 10px;
 }
 
+ul {
+    padding-left: 30px;
+}
+
+.status-done {
+    background-color: rgb(53, 157, 67);
+    color: white;
+    content: "✓";
+
+    font-size: 0.5em;
+    line-height: 16pt;
+    text-align: center;
+    font-weight:50;
+    
+    height: 20px;
+    width: 20px;
+
+    border-radius: 20px;
+}
+
+.status-notdone {
+    background-color: rgb(157, 53, 53);
+    color: white;
+    content: "✓";
+
+    font-size: 0.5em;
+    line-height: 16pt;
+    text-align: center;
+    font-weight:50;
+    
+    height: 20px;
+    width: 20px;
+
+    border-radius: 20px;
+}
+
+
+/* Highlight CSS */
+
+.question li {
+    padding: 8px;
+    margin: 8px;
+}
+
+.answer-correct {
+    background-color: #309730;
+
+    border-radius: 5px;
+}
+
+.answer-incorrect {
+    background-color: #9f2222;
+
+    border-radius: 5px;
+}
+
+
 /* Notification Box CSS */
 
-#notification-blue {
+#notification-red {
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 3%;
     padding-bottom: 3%;
 
-    background-color: rgb(72, 95, 199);
+    background-color: rgb(213, 85, 85);
 
     color: white;
 
@@ -61,6 +118,19 @@ section {
     padding-bottom: 3%;
 
     background-color: rgb(229, 171, 45);
+
+    color: white;
+
+    border-radius:5px;
+}
+
+#notification-green {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    background-color: rgb(13, 177, 65);
 
     color: white;
 

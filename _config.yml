@@ -9,9 +9,16 @@ defaults:
       scripts:
 
 
-
+# Site Links
 discord: https://discord.gg/ymb84qM54A
 github: https://github.com/oscie57
 email: mailto:me@oscie.net
 
 ecdpdiscord: https://discord.gg/3MkYyFnkqG
+
+
+done: <span class="status-done">✓</span>
+notdone: <span class="status-notdone">✗</span>
+
+incomplete: <div id="notification-red">This guide is incomplete!</div>
+remember: <div id="notification-green">Don't forget that the questions on each Self Check are in a random order each time you play!</div>
