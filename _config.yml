@@ -1,0 +1,15 @@
+# Make all rendered pages use the default theme by default.
+# Additionally, let scripts be defined but empty.
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      scripts:
+
+
+
+discord: //discord.gg/ymb84qM54A
+github: //github.com/oscie57
+email: mailto:me@oscie.net
