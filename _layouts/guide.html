@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{ page.title }}</title>
+
+        <link rel="stylesheet" href="/css/guide.css">
+        <link rel="stylesheet" href="/css/guide-icons.css">
+
+        <link rel="icon" type="image/png" href="/assets/guide/{{ page.icon }}.png" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:title" content="{{ page.title }}" />
+        <meta property="og:description" content="no thoughts, head empty">
+        <meta property="og:image" content="//oscie.net/assets/square.png">
+    </head>
+
+    <body>
+
+        {% include sidebar.html %}
+        
+        <div class="body-text">
+
+            {% include title.html %}
+
+            {{ content }}
+
+        </div>
+    </body>
+</html>
