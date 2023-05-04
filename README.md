@@ -1,3 +1,3 @@
-# oscie57.github.io/carrd
+# oscie57.github.io/ecdp
 
 A website for oscie
