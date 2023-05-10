@@ -1,6 +1,6 @@
 @font-face {
     font-family: Nintendo-DS-BIOS;
-    src: url("http://randommeaninglesscharacters.com/assets/dsi/nintendo-DS-BIOS.ttf");
+    src: url("/assets/nintendo-DS-BIOS.ttf");
 }
 
 h1,h2,h3,h4,h5 {
