@@ -1,5 +1,11 @@
-@import url("https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@font-face {
+    font-family: Nintendo-DS-BIOS;
+    src: url("http://randommeaninglesscharacters.com/assets/dsi/nintendo-DS-BIOS.ttf");
+}
+
+h1,h2,h3,h4,h5 {
+    letter-spacing: 1px
+}
 
 body {
     background-image: url('/assets/ecdp.png');
@@ -8,9 +14,11 @@ body {
     background-position: center;
     background-size:cover;
 
-    font-family: "Nunito", sans-serif;
+    font-family: Nintendo-DS-Bios, sans-serif;
 
     color: rgb(255, 255, 255);
+
+    font-size: 1.5em;
 }
 
 a {
@@ -42,6 +50,9 @@ section {
 ul {
     padding-left: 30px;
 }
+
+
+/* Status CSS */
 
 .status-done {
     background-color: rgb(53, 157, 67);
@@ -163,7 +174,7 @@ ul {
     left: 0;
     top: 0;
     background-color: #FFFFFF10;
-    padding: 5px;
+    padding: 5px
 }
 
 .sidebar-head {
@@ -181,7 +192,7 @@ ul {
     
 .sidebar-body a {
     padding: 8px;
-    font-size: 24px;
+    font-size: 1.2em;
     display: flex;
     text-decoration: none;
     gap: 10px;
@@ -222,5 +233,5 @@ ul {
     margin-left: 150px;
 }
 
-#t1 { font-size: 1.2em; }
+#t1 { font-size: 1.5em; }
 #t2 { font-size: 0.5em; }
